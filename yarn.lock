@@ -1,0 +1,25 @@
+{
+  "event": "aws_service_usage",
+  "severity": "info",
+  "timestamp": "2025-02-18T15:00:00Z",
+  "aws_region": "us-east-1",
+  "service": "EC2",
+  "package_version": "v1.2.3",
+  "action": "launched_instance",
+  "instance_id": "i-0abcd1234efgh5678",
+  "resource": {
+    "instance_type": "t2.micro",
+    "ami_id": "ami-0c55b159cbfafe1f0",
+    "security_groups": [
+      "sg-0123456789abcdef0"
+    ]
+  },
+  "details": {
+    "user": "admin_user",
+    "ip_address": "198.51.100.1",
+    "tags": [
+      {"Key": "Environment", "Value": "Development"},
+      {"Key": "Project", "Value": "ExampleProject"}
+    ]
+  }
+}
